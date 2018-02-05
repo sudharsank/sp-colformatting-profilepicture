@@ -1,0 +1,30 @@
+{
+   "elmType": "div",
+   "children": [
+      {
+         "elmType": "img",
+         "style": {
+            "width": "20px",
+            "height": "20px",
+            "border-radius": "50%"
+         },
+         "txtContent": "",
+         "attributes": {
+            "src": {
+               "operator": "+",
+               "operands": [
+                  "/_layouts/15/userphoto.aspx?accountname=",
+                  "@currentField.email"
+               ]
+            }
+         }
+      },
+      {
+         "elmType": "span",
+         "style": {
+            "padding-left": "8px"
+         },
+         "txtContent": "@currentField.title"
+      }
+   ]
+}
